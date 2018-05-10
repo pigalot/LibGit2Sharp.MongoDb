@@ -155,8 +155,7 @@
                 return (int)ReturnCode.GIT_OK;
             }
 
-            var callbackSuccessful = gitObjects.Select(g => callback(new ObjectId(g.Sha)))
-                .Any(ret => ret != (int) ReturnCode.GIT_OK);
+            var callbackSuccessful = gitObjects.Select(g => callback(new ObjectId(g.Sha))).Any(ret => ret != (int)ReturnCode.GIT_OK);
 
             if (!callbackSuccessful)
             {
