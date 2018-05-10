@@ -1,0 +1,24 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+configuration: Release
+dotnet_csproj:
+  patch: true
+  file: '**\*.csproj'
+  version: '{version}'
+  package_version: '{version}'
+  assembly_version: '{version}'
+  file_version: '{version}'
+  informational_version: '{version}'
+services: mongodb
+install:
+- pwsh: dotnet restore ./LibGit2Sharp.MongoDb.sln
+build:
+  publish_nuget: true
+  verbosity: minimal
+artifacts:
+- path: '*.nupkg'
+  name: LibGit2Sharp.MongoDb
+deploy:
+- provider: NuGet
+  api_key:
+    secure: N9bKM2A4C7tptwDhLgsDjc0/q9ppdATnSfh//hcXBgxoV8ufYWzzF7S/hBAQUvgs
