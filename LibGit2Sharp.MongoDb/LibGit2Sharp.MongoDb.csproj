@@ -11,6 +11,7 @@
     <RepositoryType>Git</RepositoryType>
     <PackageTags>Git MongoDb</PackageTags>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
