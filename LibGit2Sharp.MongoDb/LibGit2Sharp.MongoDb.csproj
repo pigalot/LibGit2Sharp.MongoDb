@@ -3,6 +3,14 @@
   <PropertyGroup>
     <CodeAnalysisRuleSet>$(SolutionDir)stylecop.ruleset</CodeAnalysisRuleSet>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Alex Lewis</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/pigalot/LibGit2Sharp.MongoDb</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/pigalot/LibGit2Sharp.MongoDb</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/pigalot/LibGit2Sharp.MongoDb/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Git MongoDb</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
