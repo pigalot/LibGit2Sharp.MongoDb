@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Rules for LibGit2Sharp.MongoDb" Description=" " ToolsVersion="10.0">
+    <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+        <Rule Id="SA1309" Action="None" /> <!-- FieldNamesMustNotBeginWithUnderscore -->
+        <Rule Id="SA1101" Action="None" /> <!-- PrefixLocalCallsWithThis -->
+        <Rule Id="SA1633" Action="None" /> <!-- FileMustHaveHeader -->
+        <Rule Id="SA1652" Action="None" /> <!-- EnableXmlDocumentationOutput -->
+        <Rule Id="SA1623" Action="None" /> <!-- PropertySummaryDocumentationMustMatchAccessors -->
+        <Rule Id="SA1401" Action="None" /> <!-- FieldsMustBePrivate -->
+    </Rules>
+</RuleSet>

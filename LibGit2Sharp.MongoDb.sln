@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibGit2Sharp.MongoDb", "LibGit2Sharp.MongoDb\LibGit2Sharp.MongoDb.csproj", "{38FACEF1-D605-428E-A0FC-0D31989615D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibGit2Sharp.MongoDb.Test", "LibGit2Sharp.MongoDb.Test\LibGit2Sharp.MongoDb.Test.csproj", "{A8367D47-750D-4E11-A79F-195E16BEC325}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C1DDA672-CC84-43FD-A9A4-988B11D139B8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LibGit2Sharp.MongoDb.sln.DotSettings = LibGit2Sharp.MongoDb.sln.DotSettings
+		LICENSE = LICENSE
+		README.md = README.md
+		stylecop.json = stylecop.json
+		stylecop.ruleset = stylecop.ruleset
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38FACEF1-D605-428E-A0FC-0D31989615D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FACEF1-D605-428E-A0FC-0D31989615D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FACEF1-D605-428E-A0FC-0D31989615D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FACEF1-D605-428E-A0FC-0D31989615D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8367D47-750D-4E11-A79F-195E16BEC325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8367D47-750D-4E11-A79F-195E16BEC325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8367D47-750D-4E11-A79F-195E16BEC325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8367D47-750D-4E11-A79F-195E16BEC325}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8D9451B-C845-461F-94C7-3E8F6DCDDFF5}
+	EndGlobalSection
+EndGlobal
